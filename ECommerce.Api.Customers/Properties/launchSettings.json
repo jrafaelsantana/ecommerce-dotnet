@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ECommerce.Api.Custumers": {
+    "ECommerce.Api.Customers": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
