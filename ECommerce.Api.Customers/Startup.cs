@@ -29,7 +29,7 @@ namespace ECommerce.Api.Custumers
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "ECommerce.Api.Custumers", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "ECommerce.Api.Customers", Version = "v1"});
             });
         }
 
@@ -40,7 +40,7 @@ namespace ECommerce.Api.Custumers
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ECommerce.Api.Custumers v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ECommerce.Api.Customers v1"));
             }
 
             app.UseHttpsRedirection();
